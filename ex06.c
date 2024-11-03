@@ -7,7 +7,7 @@ int main() {
         numbers[index] = i; 
         index++;             
     }
-    printf("3'e bölünebilen sayılar (100'den 50'ye):\n");
+    printf("numbers divisible by 3:\n");
     for (int j = 0; j < index; j++) {
         printf("%d\n", numbers[j]);  
     }
